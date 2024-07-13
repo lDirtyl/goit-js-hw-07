@@ -38,14 +38,12 @@ a {
 
 .categories-list_item {
   padding: 16px;
-
   background-color: #f6f6fe;
   border-radius: 8px;
 }
 
 .categories-list_title {
   margin-bottom: 16px;
-
   font-weight: 600;
   line-height: 133%;
   letter-spacing: 0.04em;
@@ -60,13 +58,11 @@ a {
 
 .subcategories-list > li {
   padding: 7px 15px;
-
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #2e2f42;
-
   border: 1px solid #808080;
   border-radius: 4px;
 }
