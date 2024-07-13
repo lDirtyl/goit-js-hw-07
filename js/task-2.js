@@ -25,13 +25,16 @@ const images = [
   },
 ];
 
-const gallery = document.querySelector('.gallery');
+const galleryRef = document.querySelector('.gallery');
 
-const galleryItems = images
-  .map(
-    image =>
-      `<li class="gallery-item"><img src="${image.url}" alt="${image.alt}" class="gallery-image"></li>`
-  )
-  .join('');
+const galleryItems = images.map(getGalleryItem).join('');
 
-gallery.insertAdjacentHTML('beforeend', galleryItems);
+galleryRef.innerHTML = galleryItems;
+
+function getGalleryItem({ url, alt }) {
+  return `
+    <li class="gallery-item">
+      <img class="gallery-img" src="${url}" alt="${alt}" />
+    </li>
+    `;
+}
