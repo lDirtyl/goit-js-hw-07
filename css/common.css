@@ -1,6 +1,7 @@
 @import url('./modern-normalize.css');
 @import url('./fonts.css');
 
+/* base Styles */
 body {
   padding: 32px;
   font-family: Montserrat, sans-serif;
@@ -88,4 +89,33 @@ a {
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+/* task-3 */
+.input {
+  display: block;
+  padding: 7px 15px;
+  width: 360px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.name-input {
+  margin-top: 16px;
+}
+
+.name-output {
+  margin-top: 16px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.06em;
 }
