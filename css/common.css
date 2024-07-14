@@ -203,3 +203,61 @@ a {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+/* task-6 */
+.container {
+  display: flex;
+  padding: 32px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  gap: 44px;
+}
+
+.controls-container {
+  gap: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.box-list {
+  gap: 32px;
+  min-height: 134px;
+  overflow-x: auto;
+}
+
+.box {
+  flex-shrink: 0;
+}
+
+.input-controls {
+  width: 150px;
+  text-align: center;
+}
+
+.button-controls {
+  min-width: 120px;
+}
+
+.button_desrtroy {
+  background-color: #ff4e4e;
+}
+
+@media (hover: none) {
+  .button:active {
+    background-color: #6c8cff;
+  }
+
+  .button_desrtroy:active {
+    background-color: #ff7070;
+  }
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: #6c8cff;
+  }
+
+  .button_desrtroy:hover {
+    background-color: #ff7070;
+  }
+}
